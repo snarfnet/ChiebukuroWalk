@@ -4,6 +4,8 @@
 <dict>
 	<key>NSHealthShareUsageDescription</key>
 	<string>歩数を計測して知恵袋を解放するために、ヘルスケアデータにアクセスします</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>ヘルスケアデータへのアクセスに必要です</string>
 	<key>CFBundleDisplayName</key>
 	<string>おばあちゃんの知恵袋ウォーク</string>
 	<key>CFBundleIconName</key>
