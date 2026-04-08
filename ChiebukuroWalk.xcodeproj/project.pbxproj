@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F1EA6508884BC8B055B521F /* ChiebukuroWalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075CC51171EA590FFB5E562; };
+		8595E42A5CB5154CD476CF80 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FD9E019069BE5817645659; };
+		66CB0397E61ACFF0261A5795 /* WisdomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F8A88E3CF6AF954CD63606; };
+		04519E130786ECB8976498AE /* UserProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEAAD099F0A1A9FE8E74891; };
+		422FF9F1F77A450A12C49276 /* WisdomDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F97BB539C571B152192CA52; };
+		48526B9865F248996C9CD5B1 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8C6DBE5C3C81A3F0208B54; };
+		38531AE33492BDA6A90D6AF2 /* PremiumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8831AC1469D7450AF030ACD8; };
+		E2EE4989647EF8321FFE1066 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B2EF03809EE5CE8040D2B0; };
+		FAB87885BAF2DF564FA7CF90 /* StoreKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5025400744CD93968274D65C; };
+		CA7C68F53EC026DE40F7D977 /* WisdomManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D067CC6B8DAF9002240D38F3; };
+		8BD05F21F1AA5818D67557EB /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A188FEE437E29B1270EF76D; };
+		95EAA8772BA30D43EB842250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F100968018BCFBCA395E8F; };
+		C456B7247BACAC0841BD1900 /* wisdom_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E651DF87FBC63156D35CC51; };
+		090C3E76F39C8AA3D44E029C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A6FBFD5321DA05E6D08BD75C; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7075CC51171EA590FFB5E562 /* ChiebukuroWalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChiebukuroWalkApp.swift; sourceTree = "<group>"; };
+		F9FD9E019069BE5817645659 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		60F8A88E3CF6AF954CD63606 /* WisdomItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WisdomItem.swift; sourceTree = "<group>"; };
+		DAEAAD099F0A1A9FE8E74891 /* UserProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProgress.swift; sourceTree = "<group>"; };
+		5F97BB539C571B152192CA52 /* WisdomDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WisdomDetailView.swift; sourceTree = "<group>"; };
+		FA8C6DBE5C3C81A3F0208B54 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		8831AC1469D7450AF030ACD8 /* PremiumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumView.swift; sourceTree = "<group>"; };
+		44B2EF03809EE5CE8040D2B0 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		5025400744CD93968274D65C /* StoreKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitManager.swift; sourceTree = "<group>"; };
+		D067CC6B8DAF9002240D38F3 /* WisdomManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WisdomManager.swift; sourceTree = "<group>"; };
+		5A188FEE437E29B1270EF76D /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		D8F100968018BCFBCA395E8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E651DF87FBC63156D35CC51 /* wisdom_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = wisdom_data.json; sourceTree = "<group>"; };
+		A6FBFD5321DA05E6D08BD75C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		E15F9C5BE87762BF7CC6EE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AA244F2916FBCBBE48044A9 /* ChiebukuroWalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChiebukuroWalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		427A63D3BD0B18D9A5A6750E /* ChiebukuroWalk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChiebukuroWalk.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3C530CCF1B9432C1CCD8520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC836CD5C77FE1077E3DAC30 = {
+			isa = PBXGroup;
+			children = (
+				B9543E557F8B4CF282F868FF /* ChiebukuroWalk */,
+				A69AD0DBB85022D65DD3B6E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9543E557F8B4CF282F868FF /* ChiebukuroWalk */ = {
+			isa = PBXGroup;
+			children = (
+				7075CC51171EA590FFB5E562 /* ChiebukuroWalkApp.swift */,
+				427A63D3BD0B18D9A5A6750E /* ChiebukuroWalk.entitlements */,
+				A5858CBC23C6F0E14E11FC81 /* Models */,
+				6C029F6E59D8CAD817880E3D /* Views */,
+				65EAEA87F6A66A12C0063894 /* Services */,
+				CD29E2B9865F088608634EF9 /* Theme */,
+				4D665F2CED2BF85C615572A9 /* Data */,
+				D8F100968018BCFBCA395E8F /* Assets.xcassets */,
+				E15F9C5BE87762BF7CC6EE05 /* Info.plist */,
+				A6FBFD5321DA05E6D08BD75C /* PrivacyInfo.xcprivacy */,
+			);
+			path = ChiebukuroWalk;
+			sourceTree = "<group>";
+		};
+		A5858CBC23C6F0E14E11FC81 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				60F8A88E3CF6AF954CD63606 /* WisdomItem.swift */,
+				DAEAAD099F0A1A9FE8E74891 /* UserProgress.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6C029F6E59D8CAD817880E3D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F9FD9E019069BE5817645659 /* HomeView.swift */,
+				5F97BB539C571B152192CA52 /* WisdomDetailView.swift */,
+				FA8C6DBE5C3C81A3F0208B54 /* CollectionView.swift */,
+				8831AC1469D7450AF030ACD8 /* PremiumView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		65EAEA87F6A66A12C0063894 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				44B2EF03809EE5CE8040D2B0 /* HealthKitManager.swift */,
+				5025400744CD93968274D65C /* StoreKitManager.swift */,
+				D067CC6B8DAF9002240D38F3 /* WisdomManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CD29E2B9865F088608634EF9 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				5A188FEE437E29B1270EF76D /* AppTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		4D665F2CED2BF85C615572A9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9E651DF87FBC63156D35CC51 /* wisdom_data.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A69AD0DBB85022D65DD3B6E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AA244F2916FBCBBE48044A9 /* ChiebukuroWalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7081968CE0CB1A802F3706C3 /* ChiebukuroWalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B515DF0A271E05B0290B6DF4;
+			buildPhases = (
+				467E93F6B887795E8DD2C509 /* Sources */,
+				C3C530CCF1B9432C1CCD8520 /* Frameworks */,
+				FA9D6C02B9EC3375A8F5DB1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChiebukuroWalk;
+			productName = ChiebukuroWalk;
+			productReference = 9AA244F2916FBCBBE48044A9 /* ChiebukuroWalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDF94B72C19C04955CB97039 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					7081968CE0CB1A802F3706C3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 4F86C018FA2FFF273A830470;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ja;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ja,
+				Base,
+			);
+			mainGroup = CC836CD5C77FE1077E3DAC30;
+			productRefGroup = A69AD0DBB85022D65DD3B6E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7081968CE0CB1A802F3706C3 /* ChiebukuroWalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA9D6C02B9EC3375A8F5DB1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EAA8772BA30D43EB842250 /* Assets.xcassets in Resources */,
+				C456B7247BACAC0841BD1900 /* wisdom_data.json in Resources */,
+				090C3E76F39C8AA3D44E029C /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		467E93F6B887795E8DD2C509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1EA6508884BC8B055B521F /* ChiebukuroWalkApp.swift in Sources */,
+				8595E42A5CB5154CD476CF80 /* HomeView.swift in Sources */,
+				66CB0397E61ACFF0261A5795 /* WisdomItem.swift in Sources */,
+				04519E130786ECB8976498AE /* UserProgress.swift in Sources */,
+				422FF9F1F77A450A12C49276 /* WisdomDetailView.swift in Sources */,
+				48526B9865F248996C9CD5B1 /* CollectionView.swift in Sources */,
+				38531AE33492BDA6A90D6AF2 /* PremiumView.swift in Sources */,
+				E2EE4989647EF8321FFE1066 /* HealthKitManager.swift in Sources */,
+				FAB87885BAF2DF564FA7CF90 /* StoreKitManager.swift in Sources */,
+				CA7C68F53EC026DE40F7D977 /* WisdomManager.swift in Sources */,
+				8BD05F21F1AA5818D67557EB /* AppTheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0DB9BF8D8E610D4F6BB1A310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B2619FDE938BC86A8BAB081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		385AA4D416EC79FC76AC8678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChiebukuroWalk/ChiebukuroWalk.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83VGKGSQUH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChiebukuroWalk/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "おばあちゃんの知恵袋ウォーク";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.health-and-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chiebukurowalk.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1";
+			};
+			name = Debug;
+		};
+		D5CA3A8324F1F93EDC6E70F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChiebukuroWalk/ChiebukuroWalk.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83VGKGSQUH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChiebukuroWalk/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "おばあちゃんの知恵袋ウォーク";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.health-and-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chiebukurowalk.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F86C018FA2FFF273A830470 /* Build configuration list for PBXProject "ChiebukuroWalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DB9BF8D8E610D4F6BB1A310 /* Debug */,
+				5B2619FDE938BC86A8BAB081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B515DF0A271E05B0290B6DF4 /* Build configuration list for PBXNativeTarget "ChiebukuroWalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				385AA4D416EC79FC76AC8678 /* Debug */,
+				D5CA3A8324F1F93EDC6E70F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDF94B72C19C04955CB97039 /* Project object */;
+}

@@ -1,0 +1,23 @@
+# Xcode
+build/
+*.xcuserstate
+*.xcuserdatad/
+DerivedData/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# macOS
+.DS_Store
+*.swp
+*~
+
+# Python
+__pycache__/
+*.pyc
+
+# OMC state
+.omc/
+*.lnk
