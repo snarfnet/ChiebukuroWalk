@@ -47,10 +47,10 @@ App Store メタデータ
 毎日歩いて、おばあちゃんの知恵を2,000個集めよう！料理・掃除・健康など11カテゴリの生活の知恵が詰まっています。
 
 【サポートURL】
-（GitHub Pagesにデプロイ後に記入）
+https://snarfnet.github.io/ChiebukuroWalk/support.html
 
 【プライバシーポリシーURL】
-（GitHub Pagesにデプロイ後に記入）
+https://snarfnet.github.io/ChiebukuroWalk/privacy.html
 
 【スクリーンショット説明】
 1. ホーム画面 - 今日の歩数と次の知恵袋までのプログレスバー
